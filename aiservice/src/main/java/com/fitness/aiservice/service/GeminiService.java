@@ -19,7 +19,7 @@ public class GeminiService {
 	//@Value("${gemini.api.url}")
 	private String geminiApiUrl= "/v1beta/models/gemini-2.0-flash:generateContent";
 	//@Value("${gemini.api.key}")
-	private String geminiApiKey = "AIzaSyBGK2f_FG4nK-3m4klFXlqj8S-qfsL3Bg8";
+	private String geminiApiKey = "";
 
 	
 	public GeminiService(WebClient.Builder webClientBuilder) {
